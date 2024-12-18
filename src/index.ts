@@ -1,5 +1,5 @@
 import { $addChild, $compile } from "@thi.ng/rdom";
-import { sketch, label } from "./2024/02-no-palettes";
+import { sketch, label } from "./2024/05-vera";
 import { div, h1 } from "@thi.ng/hiccup-html";
 
 document.title = label;

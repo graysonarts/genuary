@@ -26,6 +26,9 @@ importers:
       '@thi.ng/geom-accel':
         specifier: ^4.1.16
         version: 4.1.16
+      '@thi.ng/geom-fuzz':
+        specifier: ^3.0.26
+        version: 3.0.26
       '@thi.ng/grid-iterators':
         specifier: ^4.0.98
         version: 4.0.98
@@ -436,6 +439,10 @@ packages:
 
   '@thi.ng/geom-closest-point@2.1.151':
     resolution: {integrity: sha512-tSXYIbyGM/MxLgUMrhYqJGD/971sCX0reh3hGnCQPYQiEqTU3gVpqOpl+1p9MrztQqhWKhJMBCGLDJCsG74OqQ==}
+    engines: {node: '>=18'}
+
+  '@thi.ng/geom-fuzz@3.0.26':
+    resolution: {integrity: sha512-0HoFfZkwdAdD9lzi5rMeW5x7d0CkORxVctyJe69Ao8aOdT0WC29CAa3q8ISeu4qYROHRoOPmLH3/PfBPp4X/hA==}
     engines: {node: '>=18'}
 
   '@thi.ng/geom-hull@2.1.151':
@@ -1233,6 +1240,18 @@ snapshots:
     dependencies:
       '@thi.ng/api': 8.11.14
       '@thi.ng/math': 5.11.14
+      '@thi.ng/vectors': 7.12.11
+
+  '@thi.ng/geom-fuzz@3.0.26':
+    dependencies:
+      '@thi.ng/api': 8.11.14
+      '@thi.ng/color': 5.7.14
+      '@thi.ng/geom': 8.1.19
+      '@thi.ng/geom-clip-line': 2.3.113
+      '@thi.ng/geom-resample': 3.0.23
+      '@thi.ng/grid-iterators': 4.0.98
+      '@thi.ng/object-utils': 1.1.7
+      '@thi.ng/transducers': 9.2.10
       '@thi.ng/vectors': 7.12.11
 
   '@thi.ng/geom-hull@2.1.151':

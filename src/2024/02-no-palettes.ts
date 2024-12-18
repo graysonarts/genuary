@@ -33,7 +33,7 @@ export async function sketch() {
 					fill: srgb(
 						p.x_f / p.z_f,
 						p.y_f / p.z_f,
-						Math.abs(Math.cos((t * p.z_f) / 1000))
+						Math.abs(Math.cos((t * p.z_f) / 5000))
 					),
 				});
 			})
