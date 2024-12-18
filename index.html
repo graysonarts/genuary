@@ -11,13 +11,30 @@
 		<title>@thi.ng/tpl-umbrella-basic</title>
 		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
 		<style>
+			#positioner {
+				display: flex;
+				flex-direction: column;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+			}
+			div#label {
+				align-self: start;
+				text-transform: uppercase;
+				font-size: 0.8em;
+				color: #666;
+			}
 			canvas {
-				border: 1px solid black;
+				border: 1px solid #666;
 			}
 		</style>
 	</head>
 	<body class="sans-serif">
-		<div id="app"></div>
+		<div id="positioner">
+			<div id="container">
+				<div id="app"></div>
+			</div>
+		</div>
 		<script type="module" src="/src/index.ts"></script>
 	</body>
 </html>
